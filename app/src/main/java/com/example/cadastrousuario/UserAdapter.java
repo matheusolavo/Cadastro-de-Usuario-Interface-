@@ -41,7 +41,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder>{
         //Recupera os dados da lista de acordo com a posição que o android esta desenhando agora
         String nome = listaUsuarios.get(position);
 
-        //define o texto no componente visual que esta guadado dentro de 'holder'
+        //define o texto no componente visual que esta guardado dentro de 'holder'
         holder.tvNome.setText(nome);
     }
 
@@ -62,7 +62,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder>{
             super(itemView);
             //faz o mapeamento do ID do layout para o objeto java
             //android.R.id.text1 é o ID padrão do layout 'simple_list_item1
-            tvNome = itemView.findViewById((android.R.id.text1);
+            tvNome = itemView.findViewById((android.R.id.text1));
         }
 
     }
